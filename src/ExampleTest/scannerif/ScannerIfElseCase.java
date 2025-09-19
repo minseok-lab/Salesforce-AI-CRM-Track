@@ -1,4 +1,4 @@
-package ExampleTest.scannerif;
+package exampletest.scannerif;
 
 import java.util.Scanner;
 
