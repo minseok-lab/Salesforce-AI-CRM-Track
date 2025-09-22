@@ -11,6 +11,7 @@ public class IndexOfContainsExample {
         System.out.println(subString);
 
         location = subject.indexOf("자바");
+        System.out.println(location);
         if (location != -1) {
             System.out.println("자바를 포함합니다.");
         } else {

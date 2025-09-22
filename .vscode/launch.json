@@ -1,0 +1,700 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ArrayCompare",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.array.ArrayCompare",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "NewLottoExample",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.array.NewLottoExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "javaEX/ch01.sec09.Hello",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "VarTest",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec01.VarTest",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "VariableExchangeExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec01.VariableExchangeExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "VariableUseExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec01.VariableUseExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ByteExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec02.ByteExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "IntegerLiteralExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec02.IntegerLiteralExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "LongExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec02.LongExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "CharExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec03.CharExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "FloatDoubleExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec04.FloatDoubleExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "BooleanExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec05.BooleanExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "StringExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec06.StringExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "PromotionExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec07.PromotionExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "CastingExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec08.CastingExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "OperationPromotionExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec09.OperationPromotionExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "PrimitiveAndStringConversionExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec09.PrimitiveAndStringConversionExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "StringConcatExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec09.StringConcatExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "VariableScopeExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec10.VariableScopeExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "PrintfExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec12.PrintfExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec13.ScannerExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerTest",
+            "request": "launch",
+            "mainClass": "javaEX/ch02.sec13.ScannerTest",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SignOperatorExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec01.SignOperatorExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ArithmeticOperatorExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec02.ArithmeticOperatorExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "OverflowUnderflowExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec03.OverflowUnderflowExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "AccuracyExample1",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec04.AccuracyExample1",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "InfinityAndNaNCheckExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec05.InfinityAndNaNCheckExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "CompareOperatorExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec06.CompareOperatorExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "KeyInputTest",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec07.KeyInputTest",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "LogicalOperatorExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec07.LogicalOperatorExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "BitLogicExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec08.BitLogicExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "BitShiftExample1",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec09.BitShiftExample1",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "BitShiftExample2",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec09.BitShiftExample2",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "AssignmentOperatorExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec10.AssignmentOperatorExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ConditionalOperationExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch03.sec11.ConditionalOperationExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "IfDiceExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec02.IfDiceExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "IfElseExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec02.IfElseExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "IfElseIfElseExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec02.IfElseIfElseExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "IfExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec02.IfExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "IfNestedExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec02.IfNestedExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCharExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec03.SwitchCharExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SwitchExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec03.SwitchExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SwitchExpressionExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec03.SwitchExpressionExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SwitchNoBreakExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec03.SwitchNoBreakExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTableExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec04.MultiplicationTableExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTableTest",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec04.MultiplicationTableTest",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "PrintForm1To10ForExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec04.PrintForm1To10ForExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "KeyControlExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec05.KeyControlExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "PrintForm1to10Example",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec05.PrintForm1to10Example",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SumFrom1To100Example",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec05.SumFrom1To100Example",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SumOddExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec05.SumOddExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "WhileExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec05.WhileExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "DoWhileExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec06.DoWhileExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "BreakExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec07.BreakExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "BreakOutterExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec07.BreakOutterExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ContinueExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch04.sec08.ContinueExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceVariableCompareExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec03.ReferenceVariableCompareExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "GarbageObjectExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec04.GarbageObjectExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "NullPointerExceptionExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec04.NullPointerExceptionExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "CharAtExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec05.CharAtExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "EmptyStringExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec05.EmptyStringExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "EqualsExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec05.EqualsExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "IndexOfContainsExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec05.IndexOfContainsExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "LengthExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec05.LengthExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ReplaceExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec05.ReplaceExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SplitExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec05.SplitExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "SubStringExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec05.SubStringExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCreateByValueExample2",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec06.ArrayCreateByValueExample2",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCreateByValueListExample1",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec06.ArrayCreateByValueListExample1",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCreateNewExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec06.ArrayCreateNewExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ArrayLengthExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec06.ArrayLengthExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ArrayTestExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec06.ArrayTestExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "MultisimensionalArrayByNewExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec07.MultisimensionalArrayByNewExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ArrayReferenceObjectExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec08.ArrayReferenceObjectExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ArrayCopyExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec09.ArrayCopyExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "AdvancedForExample",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec10.AdvancedForExample",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "MainStringArrayArgument",
+            "request": "launch",
+            "mainClass": "javaEX/ch05.sec11.MainStringArrayArgument",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ContinueEx",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.continueif.ContinueEx",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "DoWhileEx",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.continueif.DoWhileEx",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ForEx04",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.continueif.ForEx04",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "WhileEx04",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.continueif.WhileEx04",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEx",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.scannerif.ScannerEx",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEx2",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.scannerif.ScannerEx2",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEx5",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.scannerif.ScannerEx5",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEx6",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.scannerif.ScannerEx6",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerIfElseCase",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.scannerif.ScannerIfElseCase",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerIfElseIfElseCase",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.scannerif.ScannerIfElseIfElseCase",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "ScannerSwichCase",
+            "request": "launch",
+            "mainClass": "javaEX/exampletest.scannerif.ScannerSwichCase",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "BreakExHomework",
+            "request": "launch",
+            "mainClass": "javaEX/homework.week01.BreakExHomework",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "CheckEvenOdd",
+            "request": "launch",
+            "mainClass": "javaEX/homework.week01.CheckEvenOdd",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "MiniLotto",
+            "request": "launch",
+            "mainClass": "javaEX/homework.week01.MiniLotto",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "RamdomIntHomework",
+            "request": "launch",
+            "mainClass": "javaEX/homework.week01.RamdomIntHomework",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "TypeChangeHomework",
+            "request": "launch",
+            "mainClass": "javaEX/homework.week01.TypeChangeHomework",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "Problem01",
+            "request": "launch",
+            "mainClass": "javaEX/practice.week01.Problem01",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "Problem02",
+            "request": "launch",
+            "mainClass": "javaEX/practice.week01.Problem02",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "Problem04",
+            "request": "launch",
+            "mainClass": "javaEX/practice.week01.Problem04",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "Problem05",
+            "request": "launch",
+            "mainClass": "javaEX/practice.week01.Problem05",
+            "projectName": "javaEX"
+        },
+        {
+            "type": "java",
+            "name": "Problem06",
+            "request": "launch",
+            "mainClass": "javaEX/practice.week01.Problem06",
+            "projectName": "javaEX"
+        }
+    ]
+}

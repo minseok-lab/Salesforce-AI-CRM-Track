@@ -9,5 +9,9 @@ public class ReplaceExample {
         System.out.println(oldStr);
 
         System.out.println(newStr == oldStr);
+
+        // 새로운 객체를 생성할 경우, 다른 값으로 대체됩니다.
+        oldStr = "apple";
+        System.out.println(oldStr);
     }
 }
