@@ -6,7 +6,7 @@ public class Phone {
     public String color;
 
     // 메서드 선언
-    public void  bell() {
+    public void bell() {
         System.out.println("벨이 울립니다.");
     }
 
