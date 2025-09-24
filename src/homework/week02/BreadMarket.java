@@ -16,9 +16,10 @@ public class BreadMarket {
         Scanner sc = new Scanner(System.in); // Scanner를 호출해 입력창을 엽니다.
         int totalPrice = 0;
 
+        /*
         for (int i = 0; i < breads.length; i++) { // i는 0부터 배열의 길이만큼 반복합니다.
             // 입력을 위해 빵 배열에서 getName과 getPrice를 통해 종류와 가격을 불러와서 출력합니다. 
-            System.out.print(breads[i].getName() + "(" + breads[i].getPrice() + "원)" + " : ");
+            System.out.print(breads[i].getName() + "(" + breads[i].getPrice() + "원) : ");
             int count = sc.nextInt(); // 입력값은 정수입니다.
 
             if (count < 0) { // 음수처리를 진행합니다. (0으로 간주)
@@ -29,8 +30,23 @@ public class BreadMarket {
             int linePrice = breads[i].getPrice() * count; // 각 빵 별 가격은 빵의 가격을 가져오고, 입력한 수와 곱합니다.
             totalPrice += linePrice; // 총액은 각 i번째 빵을 계산한 금액의 합
         }
+        */
+
+        // 향상된 for 문
+        for (Bread bread : breads) {
+            System.out.print(bread.getName() + "(" + bread.getPrice() + "원) : ");
+            int count = sc.nextInt();
+
+            if (count < 0) { // 음수처리를 진행합니다. (0으로 간주)
+                System.out.println("잘못된 입력입니다. 0으로 간주합니다.");
+                count = 0;
+            }
+
+            int linePrice = bread.getPrice() * count; // 각 빵 별 가격은 빵의 가격을 가져오고, 입력한 수와 곱합니다.
+            totalPrice += linePrice; // 총액은 각 i번째 빵을 계산한 금액의 합
+        }
         
-        System.out.println("총 가격 : " + totalPrice + "원 입니다");
+        System.out.println("총 가격 : " + totalPrice + "원 입니다.");
         sc.close();
     }
 }

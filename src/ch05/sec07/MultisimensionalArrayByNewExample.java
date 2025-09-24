@@ -18,11 +18,11 @@ public class MultisimensionalArrayByNewExample {
         mathScores[1][1] = 80;
         mathScores[1][2] = 90;
 
-        int totalStudent = 0;
-        int totalMathSum = 0;
+        //int totalStudent = 0;
+        //int totalMathSum = 0;
         for (int i = 0; i < mathScores.length; i++) {
             for (int j = 0; j < mathScores[i].length; j++) {
-                totalMathSum += mathScores[i][j];
+                //totalMathSum += mathScores[i][j];
             }
         }
 
