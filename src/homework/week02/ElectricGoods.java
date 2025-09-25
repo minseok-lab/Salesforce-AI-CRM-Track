@@ -9,6 +9,9 @@ public class ElectricGoods extends Goods {
         System.out.println("자식 클래스의 생성자를 호출합니다.");
     }
 
+    public ElectricGoods() {
+    }
+
     public String getColor() {
         return color;
     }

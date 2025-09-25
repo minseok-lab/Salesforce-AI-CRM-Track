@@ -16,5 +16,11 @@ public class GoodsApp {
         ElectricGoods goods3 = new ElectricGoods("Computor", 700000, "black");
         goods3.showInfo();
         System.out.println("색상: " + goods3.getColor());
+
+        int i = 18;
+        int b = 6;
+        int arraylength = (i + b - 1) / b;
+        System.out.println(arraylength);
+        
     }
 }
