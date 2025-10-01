@@ -340,6 +340,18 @@ LEFT OUTER JOIN DEPARTMENTS d
 ON e.DEPARTMENT_ID = d.DEPARTMENT_ID
 ORDER BY e.FIRST_NAME ASC;
 
+SELECT 
+	e.EMPLOYEE_ID AS 사번,
+	e.FIRST_NAME AS 성,
+	e.LAST_NAME AS 이름,
+	d.DEPARTMENT_NAME AS "부서 이름"
+FROM
+	EMPLOYEES e,
+	DEPARTMENTS d 
+WHERE e.DEPARTMENT_ID = d.DEPARTMENT_ID(+)
+ORDER BY 3;
+
+
 -- 문제6 (숙제2)
 -- 자신의 매니저보다 채용일(hire_date)이 빠른 사원의 사번(employee_id), 성(last_name)과 채용일(hire_date)을 조회하세요.
 -- 37명
@@ -353,3 +365,13 @@ JOIN EMPLOYEES mgr
 ON emp.MANAGER_ID = mgr.EMPLOYEE_ID 
 WHERE emp.HIRE_DATE < mgr.HIRE_DATE 
 ORDER BY emp.EMPLOYEE_ID ASC;
+
+SELECT
+	emp.EMPLOYEE_ID AS 사번,
+	emp.LAST_NAME AS 성,
+	emp.HIRE_DATE AS 채용일
+FROM
+	EMPLOYEES emp ,
+	EMPLOYEES mgr
+WHERE emp.MANAGER_ID = mgr.EMPLOYEE_ID 
+AND  emp.HIRE_DATE < mgr.HIRE_DATE;
