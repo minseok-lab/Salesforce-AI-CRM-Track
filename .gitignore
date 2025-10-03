@@ -5,3 +5,16 @@ original
 .classpath
 .project
 out
+
+# Log files
+*.log
+
+# IDE settings
+.vscode/
+.metadata/
+
+# Maven build output
+/target/
+
+# Database properties
+/src/main/resources/db.properties
